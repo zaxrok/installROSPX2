@@ -1,5 +1,5 @@
-# installROSTX2
-Install Robot Operating System (ROS) on NVIDIA DRIVE PX2
+# installROSPX2
+Install Robot Operating System (ROS) on NVIDIA DRIVE PX2 (AutoChauffeur)
 
 These scripts will install Robot Operating System (ROS) on the NVIDIA DRIVE PX2.
 
