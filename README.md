@@ -1,9 +1,9 @@
 # installROSTX2
-Install Robot Operating System (ROS) on NVIDIA PX2
+Install Robot Operating System (ROS) on NVIDIA DRIVE PX2
 
-These scripts will install Robot Operating System (ROS) on the NVIDIA PX2 development kit.
+These scripts will install Robot Operating System (ROS) on the NVIDIA DRIVE PX2.
 
-Tested on L4T 27.1
+Tested on Driveinstall V4.1L
 
 The script is based on the Ubuntu ARM install of ROS Kinetic: http://wiki.ros.org/kinetic/Installation/UbuntuARM and Nvidia forum disucssion: https://devtalk.nvidia.com/default/topic/1011002/general/cross-compiling-driveworks-on-the-px2-with-ros/
 
