@@ -1,19 +1,21 @@
 # installROSTX2
-Install Robot Operating System (ROS) on NVIDIA Jetson TX2
+Install Robot Operating System (ROS) on NVIDIA PX2
 
-These scripts will install Robot Operating System (ROS) on the NVIDIA Jetson TX2 development kit.
+These scripts will install Robot Operating System (ROS) on the NVIDIA PX2 development kit.
 
 Tested on L4T 27.1
 
-The script is based on the Ubuntu ARM install of ROS Kinetic: http://wiki.ros.org/kinetic/Installation/UbuntuARM
+The script is based on the Ubuntu ARM install of ROS Kinetic: http://wiki.ros.org/kinetic/Installation/UbuntuARM and Nvidia forum disucssion: https://devtalk.nvidia.com/default/topic/1011002/general/cross-compiling-driveworks-on-the-px2-with-ros/
+
+This script is modified form the https://github.com/JetsonHacks/installROSTX2
 
 Maintainer of ARM builds for ROS is http://answers.ros.org/users/1034/ahendrix/
 
 <strong>updateRepositories.sh</strong>
-This is an optional step. Adds the repositories universe, multiverse, and restricted and then apt-get update. These repositories are in the standard 27.1 install, so probably not needed.
+This is an optional step. Adds the repositories universe, multiverse, and restricted but without perform apt-get update. These repositories are in the standard 27.1 install, so probably not needed.
 
 <strong>installROS.sh</strong>
-Adds the ROS sources list, sets the keys and then loads ros-kinetic-ros-base. Edit this file to add other ROS packages for your installation. After loading, rosdep is initialized.
+Adds the ROS sources list, sets the keys and then loads ros-kinetic-desktop. Edit this file to add other ROS packages for your installation. After loading, rosdep is initialized.
 
 <strong>setupCatkinWorkspace.sh</strong>
 Usage:
