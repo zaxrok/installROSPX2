@@ -13,7 +13,7 @@ sudo apt-key adv --keyserver hkp://ha.pool.sks-keyservers.net:80 --recv-key 0xB0
 # Update the libssl1.0.0 package to the latest version [1.0.2g-1ubuntu4.6]and install libssl-dev
 sudo apt-get install libssl1.0.0/xenial libssl-doc/xenial libssl-dev/xenial
 # Installation
-# sudo apt-get update
+sudo apt-get update
 # sudo apt-get install ros-kinetic-ros-base -y
 sudo apt-get install ros-kinetic-desktop
 # Add Individual Packages here
