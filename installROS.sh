@@ -27,7 +27,7 @@ sudo apt-get install ros-kinetic-desktop
 # 
 # Initialize rosdep
 sudo apt-get install python-rosdep -y
-# Certificates are messed up
+# Certificates are messed up, to prevent error when run rosdep init
 sudo c_rehash /etc/ssl/certs
 # Initialize rosdep
 sudo rosdep init
